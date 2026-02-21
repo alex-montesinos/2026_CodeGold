@@ -32,10 +32,10 @@ public class AimClosedLoop extends Command {
         addRequirements(swerve, shooter);
 
         // Truth Table
-        rpmMap.put(1.0, 2000.0);
-        rpmMap.put(2.0, 3100.0);
-        rpmMap.put(3.0, 4500.0);
-        rpmMap.put(5.0, 5800.0); 
+        rpmMap.put(0.1, 1000.0);
+        rpmMap.put(0.2, 3000.0);
+        rpmMap.put(0.3, 5000.0);
+        rpmMap.put(0.4, 7000.0); 
     }
 
     @Override

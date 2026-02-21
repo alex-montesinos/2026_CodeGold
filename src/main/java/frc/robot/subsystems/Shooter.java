@@ -30,8 +30,8 @@ public class Shooter extends SubsystemBase {
 
   /** Creates a new Shooter. */
   public Shooter() {
-    leaderMotor = new SparkFlex(10, com.revrobotics.spark.SparkLowLevel.MotorType.kBrushless);
-    followerMotor = new SparkFlex(11, com.revrobotics.spark.SparkLowLevel.MotorType.kBrushless);
+    leaderMotor = new SparkFlex(22, com.revrobotics.spark.SparkLowLevel.MotorType.kBrushless);
+    followerMotor = new SparkFlex(21, com.revrobotics.spark.SparkLowLevel.MotorType.kBrushless);
 
     closedLoopController = leaderMotor.getClosedLoopController();
     encoder = leaderMotor.getEncoder();
